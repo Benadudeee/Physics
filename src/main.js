@@ -40,7 +40,7 @@ function onClickEvent(e){
     console.log(hoveredObj)
     return;
   }
-  const impulseVector = new Ammo.btVector3(0, 100, 0);
+  const impulseVector = new Ammo.btVector3(0, 40, 0);
   const body = hoveredObj.object.userData.physicsBody;
   
   body.activate();
